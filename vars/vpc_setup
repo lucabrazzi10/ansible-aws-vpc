@@ -10,7 +10,7 @@ PrivSub2Cidr: 172.20.5.0/24
 PrivSub3Cidr: 172.20.6.0/24
 
 region: "us-east-2" 
-zone1: us_east_2a 
+zone1: us-east-2a 
 zone2: us-east-2b 
 zone3: us-east-2c
 state: present
