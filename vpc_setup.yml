@@ -24,9 +24,9 @@
         vpc_id: "{{vpcout.vpc.id}}"
         region: "{{ region }}"
         az: "{{ zone1 }}"
-        state: "{{ state }}"
+        state: "{{state}}"
         cidr: "{{ PubSub1Cidr }}"
         map_public: yes
         resource_tags:
-          Name: vprofile-punsub1
+          Name: vprofile-pubsub1
       register: pubsub1_out
